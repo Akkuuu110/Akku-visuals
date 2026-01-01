@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avi | Visual Creator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: #0f0f0f; color: #fff; }
+    header {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.7), #0f0f0f), url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee') center/cover;
+    }
+    header h1 { font-size: 3rem; font-weight: 700; }
+    header p { margin-top: 10px; font-size: 1.1rem; opacity: 0.9; }
+    .btn {
+      margin-top: 25px;
+      padding: 12px 28px;
+      border-radius: 30px;
+      background: #ff3c00;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    .btn:hover { background: #ff5e2b; }
+    section { padding: 70px 10%; }
+    .section-title { font-size: 2rem; margin-bottom: 20px; }
+    .about p { line-height: 1.8; opacity: 0.85; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      background: #1a1a1a;
+      border-radius: 15px;
+      padding: 20px;
+      transition: transform 0.3s;
+    }
+    .card:hover { transform: translateY(-8px); }
+    footer {
+      padding: 30px;
+      text-align: center;
+      background: #090909;
+      opacity: 0.8;
+    }
+    footer a { color: #ff3c00; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Avi</h1>
+  <p>Travel • Cars • Cinematic Reels</p>
+  <a class="btn" href="https://instagram.com/yourusername" target="_blank">View Instagram</a>
+</header>
+
+<section class="about">
+  <h2 class="section-title">About Me</h2>
+  <p>
+    I create cinematic Instagram reels inspired by travel, luxury cars, and dream journeys.
+    From scenic landscapes to automotive art, every frame tells a story.
+  </p>
+</section>
+
+<section>
+  <h2 class="section-title">Featured Content</h2>
+  <div class="grid">
+    <div class="card">Azerbaijan Travel Series</div>
+    <div class="card">Luxury & Sports Cars</div>
+    <div class="card">Cinematic Reels</div>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Contact</h2>
+  <p>For collaborations and features</p>
+  <a class="btn" href="mailto:yourmail@gmail.com">Email Me</a>
+</section>
+
+<footer>
+  <p>© 2026 Avi • Built for Instagram Creators</p>
+</footer>
+
+</body>
+</html>
